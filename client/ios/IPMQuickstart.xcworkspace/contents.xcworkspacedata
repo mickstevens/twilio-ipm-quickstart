@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:IPMQuickstart.xcodeproj">
+      location = "absolute:/Users/mickstevens/Library/Mobile Documents/com~apple~CloudDocs/Twilio/ipm/client/ios/IP Messaging.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

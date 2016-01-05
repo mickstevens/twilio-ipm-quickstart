@@ -20,7 +20,7 @@
 		031C378546C17F54DF094676 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C40E664628C839CA780D8C3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		54F14C2F6D410C11D5BF1500 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		8B2B3F761C18DBB800DB93A5 /* IPMQuickstart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPMQuickstart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2B3F761C18DBB800DB93A5 /* IP Messaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IP Messaging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2B3F791C18DBB800DB93A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B2B3F7B1C18DBB800DB93A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B2B3F7E1C18DBB800DB93A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		8B2B3F771C18DBB800DB93A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B2B3F761C18DBB800DB93A5 /* IPMQuickstart.app */,
+				8B2B3F761C18DBB800DB93A5 /* IP Messaging.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B2B3F751C18DBB800DB93A5 /* IPMQuickstart */ = {
+		8B2B3F751C18DBB800DB93A5 /* IP Messaging */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B2B3F881C18DBB800DB93A5 /* Build configuration list for PBXNativeTarget "IPMQuickstart" */;
+			buildConfigurationList = 8B2B3F881C18DBB800DB93A5 /* Build configuration list for PBXNativeTarget "IP Messaging" */;
 			buildPhases = (
 				A4043773B0C0B4911FE8D5B3 /* Check Pods Manifest.lock */,
 				8B2B3F721C18DBB800DB93A5 /* Sources */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = IPMQuickstart;
+			name = "IP Messaging";
 			productName = IPMQuickstart;
-			productReference = 8B2B3F761C18DBB800DB93A5 /* IPMQuickstart.app */;
+			productReference = 8B2B3F761C18DBB800DB93A5 /* IP Messaging.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8B2B3F711C18DBB800DB93A5 /* Build configuration list for PBXProject "IPMQuickstart" */;
+			buildConfigurationList = 8B2B3F711C18DBB800DB93A5 /* Build configuration list for PBXProject "IP Messaging" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B2B3F751C18DBB800DB93A5 /* IPMQuickstart */,
+				8B2B3F751C18DBB800DB93A5 /* IP Messaging */,
 			);
 		};
 /* End PBXProject section */
@@ -336,7 +336,7 @@
 				INFOPLIST_FILE = IPMQuickstart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twilio.IPMQuickstart;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "IP Messaging";
 				SWIFT_OBJC_BRIDGING_HEADER = "IPMQuickstart/IPMQuickstart-Bridging-Header.h";
 			};
 			name = Debug;
@@ -349,7 +349,7 @@
 				INFOPLIST_FILE = IPMQuickstart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twilio.IPMQuickstart;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "IP Messaging";
 				SWIFT_OBJC_BRIDGING_HEADER = "IPMQuickstart/IPMQuickstart-Bridging-Header.h";
 			};
 			name = Release;
@@ -357,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B2B3F711C18DBB800DB93A5 /* Build configuration list for PBXProject "IPMQuickstart" */ = {
+		8B2B3F711C18DBB800DB93A5 /* Build configuration list for PBXProject "IP Messaging" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B2B3F861C18DBB800DB93A5 /* Debug */,
@@ -366,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B2B3F881C18DBB800DB93A5 /* Build configuration list for PBXNativeTarget "IPMQuickstart" */ = {
+		8B2B3F881C18DBB800DB93A5 /* Build configuration list for PBXNativeTarget "IP Messaging" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B2B3F891C18DBB800DB93A5 /* Debug */,
